@@ -24,18 +24,23 @@ const promptUser = () => {
         },
         {
             type: "input",
+            message: "Are there any pre-requisites?",
+            name: "Pre-requisities"
+        },
+        {
+            type: "input",
             message: "How do you install your project?",
-            name: "installation"
+            name: "Installation"
+        },
+        {
+            type: "input",
+            message: "How do you test this Application?",
+            name: "Tests"
         },
         {
             type: "input",
             message: "What are the resources that you used?",
             name: "Links"
-        },
-        {
-            type: "input",
-            message: "What are the test instructions?",
-            name: "tests"
         },
         {
             type: "list",
