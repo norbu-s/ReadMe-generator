@@ -84,7 +84,7 @@ const generateHTML = (answers) =>
                     <li><a href="#contributing"> Contributing</a>
                     <li><a href="#tests"> Tests</a>
                     <li><a href="#license"> License</a>
-                    <li><a href="#github Username"> Github Username</a>
+                    <li><a href="#githubUsername"> Github Username</a>
                     <li><a href="#questions"> Questions</a>
                     </ul>
             </div>
@@ -96,7 +96,7 @@ const generateHTML = (answers) =>
                     <li><p id="usage"> <strong>Usage:</strong> <br>${answers.usage}.</p>
                     <li><p id="contributing"> <strong>Contributing:</strong> <br>${answers.contributing}.</p>
                     <li><p id="tests"> <strong>Tests:</strong> <br>${answers.tests}.</p>
-                    <li><p id="license"> <strong>Links:</strong> <br> ${answers.license}.</p>
+                    <li><p id="license"> <strong>License:</strong> <br> ${answers.license}.</p>
                     <li><p id="githubUsername"> <strong>Github Username:</strong> <br>${answers.username}.</p>
                     <li><p id="questions"> <strong>Questions: If you face any issues when using this app please contact me by emailing your issues to:</strong> <br>${answers.questions}. </p>
                     </ul>
