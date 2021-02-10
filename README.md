@@ -37,7 +37,8 @@ The application is designed to run within the command-line. Once the user has in
 
 # Link
   * GitHub Repo - https://github.com/norbu-s/ReadMe-generator
-  * Video Link - 
+  * Video Link - https://drive.google.com/file/d/1px4OJzHhgbmhcwAMmLwh2qjqnUfwlC2M/view?usp=sharing
 
 # Screenshots
+![Screen Shot 2021-02-10 at 10 29 20 pm](https://user-images.githubusercontent.com/73917485/107504802-ef3c6300-6bef-11eb-9eea-50287b58f0ea.png)
 
