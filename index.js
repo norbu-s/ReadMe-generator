@@ -19,7 +19,7 @@ const promptUser = () => {
         },
         {
             type: "input",
-            message: "What is the UserStory?",
+            message: "What is the User Story?",
             name: "User Story"
         },
         {
