@@ -79,17 +79,19 @@ const generateHTML = (answers) =>
 <div class="jumbotron jumbotron-fluid">
 <div class="container">
   <h1 class="display-4">Title: ${answers.title}</h1>
-  <p class="title"> Project Description: ${answers.description}.</p>
-  <p class="description"> User Story: ${answers.UserStory}.</p>
-  <p class="description"> Pre-requisities: ${answers.Prerequisities}.</p>
-  <p class="description"> Installation: ${answers.Installation}.</p>
-  <p class="description"> Tests: ${answers.Tests}.</p>
-  <p class="description"> Links: ${answers.Links}.</p>
-  <p class="description"> Github Username: ${answers.username}.</p>
-  <p class="description"> Contact Info: ${answers.email}.</p>
+  <br>
+  <ul>
+  <p class="title"> <strong>Project Description:</strong><br>${answers.description}.</p>
+  <p class="description"> <strong>User Story:</strong> <br>${answers.UserStory}.</p>
+  <p class="description"> <strong>Pre-requisities:</strong> <br>${answers.Prerequisities}.</p>
+  <p class="description"> <strong>Installation:</strong> <br>${answers.Installation}.</p>
+  <p class="description"> <strong>Tests:</strong> <br>${answers.Tests}.</p>
+  <p class="description"> <strong>Links:</strong> <br> ${answers.Links}.</p>
+  <p class="description"> <strong>Github Username:</strong> <br>${answers.username}.</p>
+  <p class="description"> <strong>Contact Info:</strong> <br>${answers.email}.</p>
 </ul>
 </div>
-</div>
+</div
 </body>
 </html>`;
 
