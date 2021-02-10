@@ -20,7 +20,7 @@ const promptUser = () => {
         {
             type: "input",
             message: "What is the User Story?",
-            name: "User Story"
+            name: "UserStory"
         },
         {
             type: "input",
@@ -79,12 +79,12 @@ const generateHTML = (answers) =>
 <div class="jumbotron jumbotron-fluid">
 <div class="container">
   <h1 class="display-4">Title: ${answers.title}</h1>
-  <p class="title"> Project Description: ${answers.title}.</p>
-  <p class="description"> Installation: ${answers.installation}.</p>
-  <p class="description"> Usage: ${answers.usage}.</p>
-  <p class="description"> Contribution: ${answers.contribution}.</p>
-  <p class="description"> Tests: ${answers.tests}.</p>
-  <p class="description"> License Description: ${answers.choices}.</p>
+  <p class="title"> Project Description: ${answers.description}.</p>
+  <p class="description"> User Story: ${answers.UserStory}.</p>
+  <p class="description"> Pre-requisities: ${answers.Pre-requisities}.</p>
+  <p class="description"> Installation: ${answers.Installation}.</p>
+  <p class="description"> Tests: ${answers.Tests}.</p>
+  <p class="description"> Links: ${answers.Links}.</p>
   <p class="description"> Github Username: ${answers.username}.</p>
   <p class="description"> Contact Info: ${answers.email}.</p>
 </ul>
