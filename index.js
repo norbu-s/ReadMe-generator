@@ -25,7 +25,7 @@ const promptUser = () => {
         {
             type: "input",
             message: "Are there any pre-requisites?",
-            name: "Pre-requisities"
+            name: "Prerequisities"
         },
         {
             type: "input",
@@ -81,7 +81,7 @@ const generateHTML = (answers) =>
   <h1 class="display-4">Title: ${answers.title}</h1>
   <p class="title"> Project Description: ${answers.description}.</p>
   <p class="description"> User Story: ${answers.UserStory}.</p>
-  <p class="description"> Pre-requisities: ${answers.Pre-requisities}.</p>
+  <p class="description"> Pre-requisities: ${answers.Prerequisities}.</p>
   <p class="description"> Installation: ${answers.Installation}.</p>
   <p class="description"> Tests: ${answers.Tests}.</p>
   <p class="description"> Links: ${answers.Links}.</p>
