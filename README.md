@@ -25,8 +25,14 @@ SO THAT can quickly create a professional README for a new project
 The application is designed to run within the command-line. Once the user has installed the program and run the "npm install" command, they will need to run "node index.js" to begin the prompts regarding the README content. The user will then need to answer the questions accordingly and at the end they will receive a success message. The the user will need to open the index.html file in browser to view the ReadMe file
 
 # Author
-  Name: Norbu Sherpa
-  Email: Norbuts@hotmail.com
+  * Name: Norbu Sherpa
+  * Email: Norbuts@hotmail.com
+  
+# Resources
+* https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md
+* https://meakaakka.medium.com/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3
+* https://www.w3schools.com/
+* https://developer.mozilla.org/
 
 # Link
   * GitHub Repo - https://github.com/norbu-s/ReadMe-generator
