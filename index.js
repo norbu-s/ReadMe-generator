@@ -73,6 +73,7 @@ const generateHTML = (answers) =>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="Assets/style.css">
 <title>Document</title>
 </head>
 <body>
@@ -91,7 +92,7 @@ const generateHTML = (answers) =>
   <p class="description"> <strong>Contact Info:</strong> <br>${answers.email}.</p>
 </ul>
 </div>
-</div
+</div>
 </body>
 </html>`;
 
