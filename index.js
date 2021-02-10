@@ -19,18 +19,18 @@ const promptUser = () => {
         },
         {
             type: "input",
+            message: "What is the UserStory?",
+            name: "User Story"
+        },
+        {
+            type: "input",
             message: "How do you install your project?",
             name: "installation"
         },
         {
             type: "input",
-            message: "What is the usage information?",
-            name: "usage"
-        },
-        {
-            type: "input",
-            message: "What are the contribution guidelines?",
-            name: "contribution"
+            message: "What are the resources that you used?",
+            name: "Links"
         },
         {
             type: "input",
