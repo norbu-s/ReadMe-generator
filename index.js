@@ -19,28 +19,24 @@ const promptUser = () => {
         },
         {
             type: "input",
-            message: "What is the User Story?",
-            name: "UserStory"
-        },
-        {
-            type: "input",
-            message: "Are there any pre-requisites?",
-            name: "Prerequisities"
-        },
-        {
-            type: "input",
             message: "How do you install your project?",
-            name: "Installation"
+            name: "installation"
         },
+        {
+            type: "input",
+            message: "What are the Usage?",
+            name: "usage"
+        },
+        {
+            type: "input",
+            message: "Contributing?",
+            name: "contributing"
+        },
+
         {
             type: "input",
             message: "How do you test this Application?",
-            name: "Tests"
-        },
-        {
-            type: "input",
-            message: "What are the resources that you used?",
-            name: "Links"
+            name: "tests"
         },
         {
             type: "list",
@@ -61,7 +57,7 @@ const promptUser = () => {
         {
             type: "input",
             message: "What is your email address?",
-            name: "email"
+            name: "questions"
         },
     ]);
 };
@@ -76,24 +72,37 @@ const generateHTML = (answers) =>
 <link rel="stylesheet" href="Assets/style.css">
 <title>Document</title>
 </head>
-<body>
-<div class="jumbotron jumbotron-fluid">
-<div class="container">
-  <h1 class="display-4">Title: ${answers.title}</h1>
-  <br>
-  <ul>
-  <p class="title"> <strong>Project Description:</strong><br>${answers.description}.</p>
-  <p class="description"> <strong>User Story:</strong> <br>${answers.UserStory}.</p>
-  <p class="description"> <strong>Pre-requisities:</strong> <br>${answers.Prerequisities}.</p>
-  <p class="description"> <strong>Installation:</strong> <br>${answers.Installation}.</p>
-  <p class="description"> <strong>Tests:</strong> <br>${answers.Tests}.</p>
-  <p class="description"> <strong>Links:</strong> <br> ${answers.Links}.</p>
-  <p class="description"> <strong>Github Username:</strong> <br>${answers.username}.</p>
-  <p class="description"> <strong>Contact Info:</strong> <br>${answers.email}.</p>
-</ul>
-</div>
-</div>
-</body>
+    <body>
+        <h1 class="display-4">Title: ${answers.title}</h1>
+        <br>
+            <div id="toc_container">
+                <p class="toc_title">Contents</p>
+                    <ul class="toc_list">
+                    <li><a href="#projectDescription"> Project Description</a>
+                    <li><a href="#installation"> Installation</a>
+                    <li><a href="#usage"> Usage</a>
+                    <li><a href="#contributing"> Contributing</a>
+                    <li><a href="#tests"> Tests</a>
+                    <li><a href="#license"> License</a>
+                    <li><a href="#github Username"> Github Username</a>
+                    <li><a href="#questions"> Questions</a>
+                    </ul>
+            </div>
+             <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <ul>
+                    <li><p id="projectDescription"> <strong>Project Description:</strong><br>${answers.description}.</p>
+                    <li><p id="installation"> <strong>Installation:</strong> <br>${answers.installation}.</p>
+                    <li><p id="usage"> <strong>Usage:</strong> <br>${answers.usage}.</p>
+                    <li><p id="contributing"> <strong>Contributing:</strong> <br>${answers.contributing}.</p>
+                    <li><p id="tests"> <strong>Tests:</strong> <br>${answers.tests}.</p>
+                    <li><p id="license"> <strong>Links:</strong> <br> ${answers.license}.</p>
+                    <li><p id="githubUsername"> <strong>Github Username:</strong> <br>${answers.username}.</p>
+                    <li><p id="questions"> <strong>Questions: If you face any issues when using this app please contact me by emailing your issues to:</strong> <br>${answers.questions}. </p>
+                    </ul>
+                </div>
+            </div>
+    </body>
 </html>`;
 
 const init = () => {
