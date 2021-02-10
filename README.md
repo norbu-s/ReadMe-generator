@@ -11,8 +11,8 @@ SO THAT can quickly create a professional README for a new project
 
 # Pre-requisities
 
-*Intall NPM - "npm install
-*Intall package Inquirer - "npm install inquirer"
+* Intall NPM - "npm install
+* Intall package Inquirer - "npm install inquirer"
 
 
 # Installation
@@ -29,5 +29,5 @@ The application is designed to run within the command-line. Once the user has in
   Email: Norbuts@hotmail.com
 
 # Link
-  *GitHub Repo - https://github.com/norbu-s/ReadMe-generator
-  *Video Link - 
+  * GitHub Repo - https://github.com/norbu-s/ReadMe-generator
+  * Video Link - 
