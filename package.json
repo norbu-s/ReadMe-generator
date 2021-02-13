@@ -4,6 +4,7 @@
   "description": "App to generate a Readme file.",
   "main": "index.js",
   "dependencies": {
+    "@pakjiddat/toc": "^1.0.8",
     "inquirer": "^7.3.3"
   },
   "devDependencies": {},
